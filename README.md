@@ -1,14 +1,14 @@
-# UploadDowloadRest
-Upload and Downloads Files with RestService
+# FileServiceWeb
+https://fileservice667.herokuapp.com (with explanations)
+Upload, Process and then Downloads Files with ApiService
 
-Uploading and processing files, 2 algorithms, possibility of showing results in html or downloading as file
-Stores records in file and in Database, shows records from file and Database, there is a possibility of deleting records from File and From DataBase
+Uploading and processing files, there are 2 algorithms to choose (src/main/resources/static/), possibility of downloading as file
 
-Uses Logger -> there are logs in console about what's going on
+Uses Logger -> there are logs in console about what's going on 
 API Documentation in Swagger http://localhost:8080/swagger-ui/
+- deleting of all files
+- showing all the files etc.
 
-Web interfaces:
+Web interfaces with JavaScript
 
-localhost:8080/. - upload/download any file or miltiplefiles
-
-localhost:8080/home - upload files for ReadAndCount and ReplacceEverySecond and dwonload processed files
+Spring Boot, Hibernate, MySQL, Java, HTML, CSS, JavaScript, Swagger, Logger
